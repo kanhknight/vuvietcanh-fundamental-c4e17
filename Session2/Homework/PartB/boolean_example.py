@@ -5,6 +5,7 @@
 # x < y -.. x is less than y
 # x >= y -... x is greater than or equal to y
 # x <= y -.. x is less than or equal to y
+# [and, or ] operator
 print("Ví dụ 1:")
 n = float(input("Nhập vào số thứ nhất: "))
 m = float(input("Nhập vào số thứ hai: "))
