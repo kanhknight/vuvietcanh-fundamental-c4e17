@@ -1,5 +1,5 @@
 n = int(input("Enter Number: "))
-count = 1.00
+count = 1
 if n>=1:
     for i in range(n):
         if i !=0:
