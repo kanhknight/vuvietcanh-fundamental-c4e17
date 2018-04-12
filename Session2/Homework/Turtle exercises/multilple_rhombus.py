@@ -10,5 +10,4 @@ for i in range(4):
         right(60)
         forward(50)
         right(60)
-
 mainloop()
