@@ -1,18 +1,19 @@
 from turtle import *
-for i in range(3):
-    color("blue")
-    forward(100)
-    left(120)
-for i in range(4):
-    color("red")
-    forward(100)
-    left(90)
-for i in range(5):
-    color("blue")
-    forward(100)
-    left(72)
-for i in range(6):
-    color("red")
-    forward(100)
-    left(60)
-mainloop()
+n = int(input("Nhập vào 1 số: "))
+if n>=3:
+    m = []
+    for i in range(n):
+        m.append(i+1)
+    print(m)
+    for j in m:
+        if j == 3:
+            for i in range(j):
+                forward(100)
+                left(360/j)
+        if j>3:
+            for i in range(j):
+                forward(100)
+                left(360/j)
+    mainloop()
+else:
+    print("Nhập vào 1 số lớn hơn hoặc bằng 3")
