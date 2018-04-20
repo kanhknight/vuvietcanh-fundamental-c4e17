@@ -2,7 +2,7 @@
 #     for j in range(1,10):
 #         print (i*j, end = " ")
 #     print()
-n = int(input("Enter a number: \n"))
+n = int(input("Enter a number: "))
 n_list = []
 for j in range(n):
     n_list = []
