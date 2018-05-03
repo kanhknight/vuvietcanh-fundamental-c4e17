@@ -13,7 +13,7 @@
 # Answer: Use the comparison operators
 # Example:
     # stra = "Hello"
-    # Strb = "Welcome"
+    # Strb = "Welcome"–
     # if stra < Strb:
     #     print("A < B")
     # if stra > Strb:

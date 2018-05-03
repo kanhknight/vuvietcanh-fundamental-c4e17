@@ -16,14 +16,6 @@ ul = div.find("ul")
 li_list  = ul.find_all("li")
 
 song_list = []
-option = {
-    'default_search': 'ytsearch',
-    'max_downloads':200,
-    'outtmpl': 'downloadedsongs/%(title)s.%(ext)s',
-    'format': 'best'
-}
-
-dl  =YoutubeDL(option)
 
 for li in li_list:
     a_song = li.h3.a
@@ -42,5 +34,16 @@ itune_file = open("itune.html", "w")
 itune_file.write(text_data)
 itune_file.close()
 
+option = {
+    'default_search': 'ytsearch',
+    'max_downloads':1,
+    'outtmpl': 'download/%(title)s.%(ext)s',
+    'format': 'best'
+}
+
+dl  =YoutubeDL(option)
+
 for song_item in song_list:
-    dl.download(song_item['Songs'])
+    a = str(song_item['Songs'])
+    print(a)
+    dl.download([a])
