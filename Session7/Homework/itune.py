@@ -36,11 +36,11 @@ for li in li_list:
     }
     song_list.append(item)
 
-# pyexcel.save_as(records=song_list, dest_file_name = "itune.xlsx")
-# itune_file = open("itune.html", "w")
-# # lưu thô raw_data ghi wb = "write binary"
-# itune_file.write(text_data)
-# itune_file.close()
+pyexcel.save_as(records=song_list, dest_file_name = "itune.xlsx")
+itune_file = open("itune.html", "w")
+# lưu thô raw_data ghi wb = "write binary"
+itune_file.write(text_data)
+itune_file.close()
 
 for song_item in song_list:
     dl.download(song_item['Songs'])
