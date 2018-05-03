@@ -36,7 +36,7 @@ itune_file.close()
 
 option = {
     'default_search': 'ytsearch',
-    'max_downloads':1,
+    'max_downloads':200,
     'outtmpl': 'download/%(title)s.%(ext)s',
     'format': 'best'
 }
