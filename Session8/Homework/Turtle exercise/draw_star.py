@@ -1,5 +1,4 @@
 import turtle 
-
 star = turtle.Turtle()
 
 # for i in range(50):
