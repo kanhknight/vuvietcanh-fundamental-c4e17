@@ -6,3 +6,7 @@ def is_inside(a,b):
     else:
         print("Nằm ngoài!")
 is_inside([200, 120], [140, 60, 100, 200])
+
+# Test case:
+#   Nếu a[0] = 100 thì chuỗi in ra nằm ngoài là đúng, ngược lại hoặc báo lỗi là sai
+#   Nếu a[0] = 200 thì chuỗi in ra nằm trong là đúng, ngược lại hoặc báo lỗi là sai
