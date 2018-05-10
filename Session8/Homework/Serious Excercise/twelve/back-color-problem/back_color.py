@@ -34,7 +34,7 @@ def generate_quiz():
     b = randint(0,3)
     quiz_type = randint(0, 1)
     return [
-               color_text[a] ,
+                color_text[a] ,
                 colortext[b],
                 quiz_type # 0 : meaning, 1: color
             ]
@@ -46,5 +46,6 @@ def mouse_press(x, y, text, color, quiz_type):
         y_area_max = shape["rect"][1] + shape["rect"][3]
         if x >= shape["rect"][0] and y >= shape["rect"][1] and x<= x_area_max and y <= y_area_max:
             return True
-    else:
+    else:  
             return False
+

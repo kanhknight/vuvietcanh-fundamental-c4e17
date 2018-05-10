@@ -1,0 +1,9 @@
+from random import *
+
+def generate_quiz():
+    # Hint: Return [x, y, op, result]
+    return [0, 0, '+', 10]
+
+def check_answer(x, y, op, result, user_choice):
+    return True
+    # User Choice : True/False
