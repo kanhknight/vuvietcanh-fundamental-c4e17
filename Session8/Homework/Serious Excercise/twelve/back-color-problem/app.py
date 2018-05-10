@@ -81,4 +81,5 @@ class GameWindow(QWidget):
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     wnd = GameWindow()
+    title = wnd.setWindowTitle("Back Color Game!")
     sys.exit(app.exec_())
